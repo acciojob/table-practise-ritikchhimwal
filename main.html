@@ -4,10 +4,57 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+        table {
+            background-color: yellow; 
+            
+        }
+        table, th, td {
+            border: 1px solid black; /* Table, Header, and Data cell border */
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
+        caption {
+            caption-side: top;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+
+    <table>
+        <caption>Student Details</caption> <!-- Table Caption -->
+        <thead>
+            <tr>
+                <th>NAME</th> <!-- Table Header for Name -->
+                <th>AGE</th>  <!-- Table Header for Age -->
+                <th>BRANCH</th> <!-- Table Header for Branch -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>20</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>21</td>
+                <td>ESE</td>
+            </tr>
+            <tr>
+                <td>Mark Wilson</td>
+                <td>19</td>
+                <td>ME</td>
+            </tr>
+        </tbody>
+    </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
